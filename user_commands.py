@@ -9,31 +9,6 @@ def show_all():
         print(animal)
 
 
-# def add_new_animal_random():
-#     for i in range(10):
-#         name = random.choice(animal_name)
-#         a_spec = random.choice(animal_species)
-#         if a_spec in ("Лошадь", "Верблюд", "Осел"):
-#             a_type = animal_type[1]
-#         else:
-#             a_type = animal_type[0]
-#         new_animal = Animal(name, a_spec, a_type)
-#         all_animals.append(new_animal)
-#     return all_animals
-#
-#
-# def add_new_animal():
-#     name = input('Введите кличку животного: ')
-#     a_spec = (input('Введите тип животного, реестр принимает только следующих: '
-#                     'Кот, Собака, Хомяк, Лошадь, Верблюд, Осел: ')).title()
-#     if a_spec in ("Лошадь", "Верблюд", "Осел"):
-#         a_type = animal_type[1]
-#     else:
-#         a_type = animal_type[0]
-#     new_animal = Animal(name, a_spec, a_type)
-#     all_animals.append(new_animal)
-#     return new_animal
-
 def add_few_animal():
     view.qty_request()
     qty = int(input())
