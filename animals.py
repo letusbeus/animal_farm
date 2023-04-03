@@ -16,9 +16,6 @@ class Animal:
     def set_commands(self, key, val):
         self.animal_commands[key] = val
 
-    # def get_attr(self):
-    #     return self.id, self.name, self.animal_species, self.animal_type, self.animal_commands
-
     def get_name(self):
         return self.name
 
